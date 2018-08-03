@@ -38,7 +38,7 @@ li.navbar-li {
 .navbar-link {
     color: #6b053b;
     font-family: 'Tinos', cursive;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .navbar {
@@ -53,7 +53,7 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    height: 200px;
+    height: 180px;
 
 }
 
@@ -61,8 +61,8 @@ h1 {
     font-family: 'Lobster Two', cursive;
     font-weight: 700;
     color: #6b053b;
+    font-size: 45px;
 }
-
 /**** ABOUT ME *****/
 
 #profile{
@@ -107,6 +107,7 @@ ol span {
     margin-top: auto;
     margin-bottom: auto;
 }
+
 /***** PROJECTS *****/
 
 .title-row {
