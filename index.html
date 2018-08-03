@@ -5,37 +5,44 @@
     <title>Skye Nguyen</title>
     <link href="css/bootstrap.css" rel="stylesheet" text="css/text" media="all" />
     <link href="css/styles.css" rel="stylesheet" text="css/text" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:700|Tinos" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Skye Nguyen</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me"></a>About Me</a>
-                </li>
-                <li>
-                    <a href="#projects"></a>Projects</a>
-                </li>
-                <li>
-                    <a href="#background"></a>Background</a>
-                </li>
-                <li>
-                    <a href="#hobbies"></a>Hobbies</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="img/profile.jpg" alt="profile picture" width=50%/>
+        <div class="header-title">
+            <h1>Skye Nguyen</h1>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#background">Background</a>
+                    </li>
+                    <li>
+                        <a href="#hobbies">Hobbies</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="container">
         <div id="about-me">
             <h3>About Me</h3>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also the leap into electronic
-            </p>
+            <img src="img/profile.jpg" alt="profile picture" width=50%/>
+            <div id="about-me-float">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic
+                </p>
+            </div>
         </div>
         <div id="projects">
             <h3>Projects</h3>
@@ -108,27 +115,59 @@
         </div>
         <div id="background">
             <h3>Background</h3>
+            <div class="row">
+                <div class="col">
+                    <span>Education</span>
+                </div>
+                <div class="col-6">
+                    Bachelor of Science in Chemical Engineering with a concentration in Polymers.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <span>Previous Experience</span>
+                </div>
+                <div class="col-5">
+                    <span>rfbwuierfwuierfweurf</span>>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <span>Why I code</span>
+                </div>
+                <div class="col-5">
+                    <span>rfbwuierfwuierfweurf</span>>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <span>Awards</span>
+                </div>
+                <div class="col-5">
+                    <span>rfbwuierfwuierfweurf</span>>
+                </div>
+            </div>
         </div>
         <div id="hobbies">
             <h3>Hobbies</h3>
             <div class="row">
-                <div class="col-md-4">
-                    <h4>Dota 2</h4>
-                    <img src="img/dota.jpg" alt="profile picture" width=50%/>
+                <div class="col-md-6">
+                    <span>Dota 2</span>
+                    <img src="img/dota.jpg" alt="dota 2 wallpaper" width=50%/>
                 </div>
-                <div class="col-md-4">
-                    <h4>Makeup</h4>
-                    <img src="img/makeup-unsplash.jpg" alt="profile picture" width=50%/>
+                <div class="col-md-6">
+                    <span>Makeup</span>
+                    <img src="img/makeup-unsplash.jpg" alt="makeup bag" width=50%/>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <h4>OrangeTheory Fitness</h4>
-                    <img src="img/otf-logo.png" alt="profile picture" width=50%/>
+                <div class="col-md-6">
+                    <span>OrangeTheory Fitness</span>
+                    <img src="img/otf-logo.png" alt="otf logo" width=50%/>
                 </div>
-                <div class="col-md-4">
-                    <h4>Hiking</h4>
-                    <img src="img/hiking.jpg" alt="profile picture" width=50%/>
+                <div class="col-md-6">
+                    <span>Hiking</span>
+                    <img src="img/hiking.jpg" alt="hiking" width=50%/>
                 </div>
             </div>
         </div>

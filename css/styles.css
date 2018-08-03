@@ -1,0 +1,35 @@
+/******* HEADER *******/
+
+ul {
+    list-style-type: none;
+}
+li {
+    display:inline-block;
+    margin-left: 20px;
+}
+
+a {
+    color: black;
+    font-family: 'Tinos', cursive;
+    font-size: 25px;
+}
+
+.navbar {
+    float:right;
+}
+
+.header-title {
+    float:left; 
+}
+
+header{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    /*background-image: url(../img/clement-unsplash.jpg);*/
+    background-color: salmon;
+    height: 300px;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+}
