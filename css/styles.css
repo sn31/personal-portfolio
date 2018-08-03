@@ -37,8 +37,6 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    /*background-image: url(../img/clement-unsplash.jpg);*/
-    background-color: white;
     height: 300px;
 }
 
@@ -58,6 +56,14 @@ h1 {
     padding-left: 10px;
 }
 
+ol{
+    list-style-type: none;
+    text-align: center;
+}
+
+ol span {
+    text-decoration-line: underline;
+}
 /***** BACKGROUND ****/
 .experience {
     margin-left:0;
