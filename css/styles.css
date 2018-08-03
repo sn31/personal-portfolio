@@ -8,7 +8,7 @@ li {
     margin-left: 20px;
 }
 
-a {
+.navbar-link {
     color: black;
     font-family: 'Tinos', cursive;
     font-size: 25px;
@@ -23,10 +23,11 @@ a {
 }
 
 header{
+    margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
     /*background-image: url(../img/clement-unsplash.jpg);*/
-    background-color: salmon;
+    background-color: white;
     height: 300px;
 }
 
@@ -38,4 +39,16 @@ h1 {
 
 #profile{
     float: left;
+    margin-right: 10px;
+}
+
+#about-me-float {
+    padding-left: 10px;
+}
+
+/***** PROJECTS *****/
+
+.title-row {
+    padding: 10px;
+    background-color: aquamarine;
 }

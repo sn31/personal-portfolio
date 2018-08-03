@@ -9,41 +9,45 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-title">
-            <h1>Skye Nguyen</h1>
-        </div>
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#background">Background</a>
-                    </li>
-                    <li>
-                        <a href="#hobbies">Hobbies</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="container-fluid">
+        <header>
+            <div class="header-title">
+                <h1>Skye Nguyen</h1>
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="navbar-link" href="#about-me">About Me</a>
+                        </li>
+                        <li>
+                            <a class="navbar-link" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a class="navbar-link" href="#background">Background</a>
+                        </li>
+                        <li>
+                            <a class="navbar-link" href="#hobbies">Hobbies</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
     <main class="container">
         <div class="card" id="about-me">
             <div class="card-header">
                 <h3 class="card-title">About Me</h3>
             </div>
             <div class="card-body">
-                <img src="img/profile.jpg" alt="profile picture" width=50% id="profile"/>
+                <img src="img/profile.jpg" alt="profile picture" width=50% id="profile" />
                 <div id="about-me-float">
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                        a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                    <p> I am originally from Viet Nam and have been living in the States for about seven years now. I spent five
+                        of these years living and studying in northen Indiana before moving to Seattle last summer. I consider
+                        myself a
+                        <em>diversity promotor</em>, inspiring team leader and a
+                        <strong>creative problem solver</strong>.
                     </p>
                 </div>
             </div>
@@ -53,111 +57,121 @@
                 <h3 class="card-title">Projects</h3>
             </div>
             <div class="card-body">
-                <div class="row">
+                <div class="row title-row">
                     <div class="col-md-4">
-                        Title
+                        <h6>Title
+                            <h6>
                     </div>
                     <div class="col-md-4">
-                        Description
+                        <h6>Description
+                            <h6>
                     </div>
                     <div class="col-md-4">
-                        Link/Demo
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        Cospedia
-                    </div>
-                    <div class="col-md-4">
-                        2 of 3 (wider)
-                    </div>
-                    <div class="col-md-4">
-                        3 of 3
+                        <h6>Link/Demo
+                            <h6>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        Animal Shelter
+                        <span>Cospedia</span>
                     </div>
                     <div class="col-md-4">
-                        2 of 3 (wider)
+                        <p>A react-native mobile application that keeps track of your makeup expiration dates. </p>
                     </div>
                     <div class="col-md-4">
-                        3 of 3
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        Island Resort
-                    </div>
-                    <div class="col-md-4">
-                        2 of 3 (wider)
-                    </div>
-                    <div class="col-md-4">
-                        3 of 3
+                        <a href="https://github.com/sn31/makeup-journal-code-a-thon">GitHub Repository (On-going project)</a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        Election Result Map
+                        <span>Animal Shelter</span>
                     </div>
                     <div class="col-md-4">
-                        2 of 3 (wider)
+                       <p>A static one-page website of a mock animal shelter, built using HTML and CSS.</p>
                     </div>
                     <div class="col-md-4">
-                        3 of 3
+                        <a href="https://github.com/sn31/animal-shelter/tree/navbar"> GitHub Repository</a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        Cat Clock
+                        <span>Island Resort</span>
                     </div>
                     <div class="col-md-4">
-                        2 of 3 (wider)
+                        <p>A responsive multi-page website of a mock island resort, built using HTML and CSS.</p>
                     </div>
                     <div class="col-md-4">
-                        3 of 3
+                        <a href="https://sn31.github.io/island-resort/"> GitHub Pages</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span>Election Result Map</span>
+                    </div>
+                    <div class="col-md-4">
+                        <p>A responsive election map based on the electoral college system, built using HTML, CSS and JavaScript.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://github.com/sn31/election-map"> GitHub Repository</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span>Cat Clock</span>
+                    </div>
+                    <div class="col-md-4">
+                        <p>A responsive clock that changes the main cat picture based on the time of the visit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://skye.dames.es/lolcat-clock/">Live Demo</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="background">
-            <h3>Background</h3>
-            <div class="row">
-                <div class="col">
-                    <span>Education</span>
+        <div class="card" id="background">
+            <div class="card-header">
+                <h3>Background</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <span>Education</span>
+                    </div>
+                    <div class="col-6">
+                        Bachelor of Science in Chemical Engineering with a concentration in Polymers.
+                    </div>
                 </div>
-                <div class="col-6">
-                    Bachelor of Science in Chemical Engineering with a concentration in Polymers.
+                <div class="row">
+                    <div class="col">
+                        <span>Previous Experience</span>
+                    </div>
+                    <div class="col-5">
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span>Why I code</span>
+                    </div>
+                    <div class="col-5">
+                        <span>rfbwuierfwuierfweurf</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span>Awards</span>
+                    </div>
+                    <div class="col-5">
+                        <span>rfbwuierfwuierfweurf</span>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <span>Previous Experience</span>
-                </div>
-                <div class="col-5">
-                    <span>rfbwuierfwuierfweurf</span>>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <span>Why I code</span>
-                </div>
-                <div class="col-5">
-                    <span>rfbwuierfwuierfweurf</span>>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <span>Awards</span>
-                </div>
-                <div class="col-5">
-                    <span>rfbwuierfwuierfweurf</span>>
-                </div>
-            </div>
+
         </div>
-        <div id="hobbies">
-            <h3>Hobbies</h3>
+        <div class="card" id="hobbies">
+            <div class="card-header">
+                <h3>Hobbies</h3>
+            </div>
             <div class="row">
                 <div class="col-md-6">
                     <span>Dota 2</span>
