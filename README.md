@@ -12,13 +12,15 @@ The user can navigate the between sections using the provided navbar on the top 
 ## Setup/Installation Requirements
 
 1. Clone this repository by using Terminal command:
+
 *git clone https://github.com/sn31/personal-portfolio*
 
-2. Download Bootstrap:
+2. Download Bootstrap: 
 
 *https://getbootstrap.com/docs/4.0/getting-started/download/*
 
 3. Change into the work directory using Terminal command:
+
 *cd personal-portfolio*
 
 4. Open the project in your preferred text editor.

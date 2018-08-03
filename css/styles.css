@@ -2,6 +2,7 @@
 
 body {
     font-size: 18px;
+    background-color: white;
 }
 .card-title {
     font-family: 'Lobster Two', cursive;
@@ -11,6 +12,17 @@ body {
 
 .card-header {
     background-color: #6b053b;
+}
+.container {
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+}
+
+img {
+    border-radius: 3%;
 }
 /******* HEADER *******/
 
@@ -24,7 +36,7 @@ li.navbar-li {
 }
 
 .navbar-link {
-    color: black;
+    color: #6b053b;
     font-family: 'Tinos', cursive;
     font-size: 25px;
 }
@@ -41,12 +53,14 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    height: 300px;
+    height: 200px;
+
 }
 
 h1 {
     font-family: 'Lobster Two', cursive;
     font-weight: 700;
+    color: #6b053b;
 }
 
 /**** ABOUT ME *****/
@@ -54,6 +68,7 @@ h1 {
 #profile{
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 #about-me-float {
@@ -112,4 +127,14 @@ h6 {
 
 .hobbies-card {
     text-align: center;
+}
+
+/***** FOOTER *****/
+
+footer {
+    background-color: #6b053b;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    margin-bottom: 10px;
+    color: white;
 }
