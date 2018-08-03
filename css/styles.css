@@ -1,9 +1,20 @@
+/******* BODY **********/
+
+.card-title {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+}
+
+.card-header {
+    background-color: pink;
+}
 /******* HEADER *******/
 
 ul {
     list-style-type: none;
+    padding-left:0;
 }
-li {
+li.navbar-li {
     display:inline-block;
     margin-left: 20px;
 }
@@ -33,6 +44,7 @@ header{
 
 h1 {
     font-family: 'Lobster Two', cursive;
+    font-weight: 700;
 }
 
 /**** ABOUT ME *****/
@@ -46,9 +58,26 @@ h1 {
     padding-left: 10px;
 }
 
+/***** BACKGROUND ****/
+.experience {
+    margin-left:0;
+    display: block;
+}
 /***** PROJECTS *****/
 
 .title-row {
     padding: 10px;
     background-color: aquamarine;
+}
+
+
+/***** HOBBIES *****/
+.hobbies {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.hobbies-card {
+    text-align: center;
 }
