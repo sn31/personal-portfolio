@@ -1,12 +1,16 @@
 /******* BODY **********/
 
+body {
+    font-size: 18px;
+}
 .card-title {
     font-family: 'Lobster Two', cursive;
     font-weight: 400;
+    color: white;
 }
 
 .card-header {
-    background-color: pink;
+    background-color: #6b053b;
 }
 /******* HEADER *******/
 
@@ -63,19 +67,41 @@ ol{
 
 ol span {
     text-decoration-line: underline;
+    font-family: 'Sofia';
+    font-size: 22px;
+    color: #6b053b;
 }
 /***** BACKGROUND ****/
 .experience {
     margin-left:0;
     display: block;
 }
+
+.row-bg {
+    padding-bottom: 10px;
+    border-bottom: 1px solid plum;
+}
+#row-bg-last {
+    border:none;
+}
+.card-body {
+    padding-bottom: 0;
+}
+
+.col-bg {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 /***** PROJECTS *****/
 
 .title-row {
-    padding: 10px;
-    background-color: aquamarine;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid plum;
 }
 
+h6 {
+    font-size: 18px;
+}
 
 /***** HOBBIES *****/
 .hobbies {
