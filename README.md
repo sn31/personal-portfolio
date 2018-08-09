@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a responsive landing page for a personal portfolio that includes 4 sections: About me, Projects, Background and Hobbies. The user can navigate between the sections using the navigation barr on the top right.
+This is a responsive landing page for a personal portfolio that includes 4 sections: About me, Projects, Background and Hobbies. The user can navigate between the sections using the navigation bar on the top right.
 
 The project was reviewed based on the following objectives:
 
