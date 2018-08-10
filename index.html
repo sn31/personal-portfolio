@@ -34,9 +34,8 @@
             </div>
         </header>
     </div>
-    <!-- <img src="img/profile.jpg" alt="profile picture" width=50% id="profile" /> -->
 
-    <main class="container">
+    <main class="container-fluid">
         <div class="card" id="about-me">
             <div class="card-header">
                 <h3 class="card-title">About Me</h3>
@@ -51,8 +50,9 @@
                         <strong>creative problem solver</strong>.
                     </p>
                     <p>I am currently attending Epicodus C# and React track full-time, which will commence in February, 2019.</p>
-                    
-                    <ol><span>Short-term Goals</span>
+
+                    <ol>
+                        <span>Short-term Goals</span>
                         <li>Improve my programming skills</li>
                         <li>Explore and apply programming best practices</li>
                         <li>Establish meaningful relationships with people of common interests</li>
@@ -192,42 +192,88 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="card hobbies-card" id="hobbies">
-            <div class="card-header">
-                <h3 class="card-title">Hobbies</h3>
-            </div>
             <div class="row">
                 <div class="col-md-6">
-                    <span>Dota 2</span>
-                    <br>
-                    <img class="hobbies" src="img/dota.jpg" alt="dota 2 wallpaper" width=50%/>
+                    <div class="card-header">
+                        <h3 class="card-title">Hobbies</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Dota 2</span>
+                            <br>
+                            <img class="hobbies" src="img/dota.jpg" alt="dota 2 wallpaper" width=50%/>
+                        </div>
+                        <div class="col-md-6">
+                            <span>Makeup</span>
+                            <br>
+                            <img class="hobbies" src="img/makeup-unsplash.jpg" alt="makeup bag" width=50%/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Orangetheory Fitness</span>
+                            <br>
+                            <img class="hobbies" src="img/otf-logo.jpg" alt="otf logo" width=50%/>
+                        </div>
+                        <div class="col-md-6">
+                            <span>Hiking</span>
+                            <br>
+                            <img class="hobbies" src="img/hiking.jpg" alt="hiking" width=50%/>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                    <span>Makeup</span>
-                    <br>
-                    <img class="hobbies" src="img/makeup-unsplash.jpg" alt="makeup bag" width=50%/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <span>Orangetheory Fitness</span>
-                    <br>
-                    <img class="hobbies" src="img/otf-logo.jpg" alt="otf logo" width=50%/>
-                </div>
-                <div class="col-md-6">
-                    <span>Hiking</span>
-                    <br>
-                    <img class="hobbies" src="img/hiking.jpg" alt="hiking" width=50%/>
+                    <div class="card-header">
+                        <h3 class="card-title">Interests</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Open AI</span>
+                            <br>
+                            <img class="hobbies" src="img/dota.jpg" alt="dota 2 wallpaper" width=50%/>
+                        </div>
+                        <div class="col-md-6">
+                            <span>Makeup</span>
+                            <br>
+                            <img class="hobbies" src="img/makeup-unsplash.jpg" alt="makeup bag" width=50%/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Orangetheory Fitness</span>
+                            <br>
+                            <img class="hobbies" src="img/otf-logo.jpg" alt="otf logo" width=50%/>
+                        </div>
+                        <div class="col-md-6">
+                            <span>Hiking</span>
+                            <br>
+                            <img class="hobbies" src="img/hiking.jpg" alt="hiking" width=50%/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <form id="contact">
+            <div class="form-group">
+                <label for="name">What should I call you?</label>
+                <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="email">How may I reach you?</label>
+                <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="message">Got a message for me?</label>
+                <input type="text" class="form-control" />
+            </div>
+            <button id="submit" type="submit">Contact</button>
+        </form>
     </main>
     <footer>
         <span>Created by Skye Nguyen, 2018</span>
     </footer>
-
 </body>
 
 </html>

@@ -3,6 +3,7 @@
 body {
     font-size: 18px;
     background-color: white;
+    opacity: 1.0;
 }
 .card-title {
     font-family: 'Lobster Two', cursive;
@@ -12,6 +13,7 @@ body {
 
 .card-header {
     background-color: #6b053b;
+    opacity: 0.6;
 }
 .container {
     margin-bottom: 30px;
@@ -134,6 +136,7 @@ h6 {
 
 footer {
     background-color: #6b053b;
+    opacity: 0.6;
     text-align: center;
     font-family: 'Sofia', cursive;
     margin-bottom: 10px;
@@ -185,4 +188,13 @@ body {
 	100% {
 		background-position: 0% 50%
 	}
+}
+
+
+/**** CONTACT FORM *****/
+
+#contact {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
