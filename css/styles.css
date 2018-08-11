@@ -202,3 +202,15 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* CAROUSEL  */
+
+.carousel-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-container{
+    margin-bottom: 30px;
+    width: 60%;
+}
