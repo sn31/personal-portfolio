@@ -3,7 +3,6 @@
 body {
     font-size: 18px;
     background-color: white;
-    opacity: 1.0;
 }
 .card-title {
     font-family: 'Lobster Two', cursive;
@@ -14,7 +13,8 @@ body {
 
 .card-header {
     background-color: #6b053b;
-    opacity: 0.6;
+    
+    
 }
 .container {
     margin-bottom: 30px;
@@ -28,6 +28,10 @@ body {
 
 img {
     border-radius: 3%;
+}
+
+.card-body {
+    opacity: 1;
 }
 /******* HEADER *******/
 
@@ -59,7 +63,6 @@ header{
     margin-bottom: 30px;
     padding-bottom: 30px;
     height: 10%;
-
 }
 
 h1 {
@@ -68,6 +71,14 @@ h1 {
     color: #6b053b;
     font-size: 45px;
 }
+
+hr.style {
+	border-top: 3px double #8c8b8b;
+}
+#secondLine {
+    width: 50%;
+}
+
 /**** ABOUT ME *****/
 
 #profile{
@@ -141,7 +152,6 @@ h6 {
 
 footer {
     background-color: #6b053b;
-    opacity: 0.6;
     text-align: center;
     font-family: 'Sofia', cursive;
     margin-bottom: 10px;
@@ -213,6 +223,6 @@ body {
     padding: 5%;
 }
 .carousel-container{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     width: 70%;
 }
