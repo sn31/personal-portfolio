@@ -58,7 +58,7 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    height: 180px;
+    height: 10%;
 
 }
 
@@ -207,11 +207,12 @@ body {
 /* CAROUSEL  */
 
 .carousel-img {
-    width: 50%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 5%;
 }
 .carousel-container{
-    margin-bottom: 30px;
-    width: 60%;
+    margin-bottom: 10%;
+    width: 70%;
 }
