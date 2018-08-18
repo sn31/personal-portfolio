@@ -12,6 +12,12 @@
 </head>
 
 <body>
+    <div id="splashscreen">
+        
+        <img src="img/clement-unsplash.jpg" width="100%" height ="60%"/>
+
+        <a href="#" class="enter_link">Enter on the website</a>
+    </div>
     <div class="container-fluid header-container">
         <header>
             <div class="header-title">
@@ -36,9 +42,10 @@
                 </nav>
             </div>
         </header>
-        <hr class="style"> <hr class="style" id="secondLine"> 
+        <hr class="style">
+        <hr class="style" id="secondLine">
     </div>
-    <div class="container carousel-container" id="myCarousel">
+    <!-- <div class="container carousel-container" id="myCarousel">
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -50,7 +57,7 @@
                     <img class="d-block w-100 carousel-img" src="img/animal-shelter.png" alt="animal shelter" />
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 carousel-img" src="img/marketplace.png" alt="market place">
+                    <img class="d-block w-100 carousel-img" src="img/flash-card.png" alt="market place">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 carousel-img" src="img/election-map.png" alt="election map" />
@@ -65,7 +72,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
+    </div> -->
     <main class="container-fluid">
         <div class="card" id="about-me">
             <div class="card-header">
@@ -258,37 +265,6 @@
                     </div>
 
                 </div>
-                <div class="col-md-6" id="interest">
-                    <div class="card-header">
-                        <h3 class="card-title">Social Media</h3>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <span>LinkedIn</span>
-                                <br>
-                                <img class="contact" src="img/icons8-linkedin-64.png" alt="linkedin"/>
-                            </div>
-                            <div class="col-md-6">
-                                <span>GitHub</span>
-                                <br>
-                                <img class="contact" src="img/icons8-github-64.png" alt="github"/>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <span>E-mail</span>
-                                <br>
-                                <img class="contact" src="img/icons8-new-post-64.png" alt="email"/>
-                            </div>
-                            <div class="col-md-6">
-                                <span>Phone</span>
-                                <br>
-                                <img class="contact" src="img/icons8-cell-phone-64.png" alt="phone"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="card">
@@ -296,22 +272,55 @@
                 <h3 class="card-title">Let's get in touch!</h3>
             </div>
             <div class="card-body">
-                <form id="contact">
-                    <div class="form-group">
-                        <label for="name">What should I call you?</label>
-                        <input type="text" class="form-control" />
+                <div class="row">
+                    <div class="col-md-9">
+                        <form id="contact">
+                            <div class="form-group">
+                                <label for="name">What should I call you?</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">How may I reach you?</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Got a message for me?</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <button class="btn btn-info" id="submit" type="submit">Contact</button>
+                        </form>
+                        <br>
                     </div>
-                    <div class="form-group">
-                        <label for="email">How may I reach you?</label>
-                        <input type="text" class="form-control" />
+                    <div class="col-md-3" id="interest">
+                        <div class="card-header">
+                            <h3 class="card-title">Social Media</h3>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="https://www.linkedin.com/in/skyenguyen31/" target="_blank">
+                                    <img class="contact" src="img/icons8-linkedin-64.png" alt="linkedin" />
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="https://github.com/sn31" target="_blank">
+                                    <img class="contact" src="img/icons8-github-64.png" alt="github" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="mailto:skye@dames.es">
+                                    <img class="contact" src="img/icons8-new-post-64.png" alt="email" />
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#"></a>
+                                <img class="contact" src="img/icons8-resume-64.png" alt="resume" />
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="message">Got a message for me?</label>
-                        <input type="text" class="form-control" />
-                    </div>
-                    <button class="btn btn-info" id="submit" type="submit">Contact</button>
-                </form>
-                <br/>
+                </div>
             </div>
         </div>
     </main>

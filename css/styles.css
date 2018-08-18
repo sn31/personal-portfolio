@@ -162,7 +162,7 @@ footer {
 body {
 	width: 100wh;
 	height: 100%;
-	background: linear-gradient(-70deg, #ffffff, #f7cde5,rgb(164, 238, 220), #93c1a1);
+	background: linear-gradient(-70deg, #ffffff, #f7cde5, #a1f5ba);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
@@ -217,7 +217,8 @@ body {
 /* CAROUSEL  */
 
 .carousel-img {
-    height: 50%;
+    width: auto;
+    height: 40%;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
