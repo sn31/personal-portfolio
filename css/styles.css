@@ -230,7 +230,10 @@ body {
 
 /* SPLASH SCREEN */
  #splashscreen {
-    background-color: whitesmoke; 
+    background-image: url(../img/kash-goudarzi-222032-unsplash.jpg);
+    /* background-size: 100vh;  */
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
  }
 
@@ -243,4 +246,8 @@ body {
     margin-right: auto;
     margin-top: 30vh;
    
+ }
+
+ #profileSplash:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
  }
