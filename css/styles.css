@@ -146,8 +146,6 @@ h6 {
     text-align: center;
 }
 
-/***** INTERESTS *****/
-
 /***** FOOTER *****/
 
 footer {
@@ -231,21 +229,20 @@ body {
 /* SPLASH SCREEN */
  #splashscreen {
     background-image: url(../img/kash-goudarzi-222032-unsplash.jpg);
-    /* background-size: 100vh;  */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    padding-top: 30vh;
  }
 
  #profileSplash {
     border:1px solid black;
     height: 40vh;
     width:60vh;
-    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30vh;
-   
+    background-color:rgba(216, 209, 209, 0.5);
+    text-align: center;
  }
 
  #profileSplash:hover {
