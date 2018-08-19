@@ -13,8 +13,6 @@ body {
 
 .card-header {
     background-color: #6b053b;
-    
-    
 }
 .container {
     margin-bottom: 30px;
@@ -247,4 +245,8 @@ body {
 
  #profileSplash:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+ }
+
+ #splash-row {
+     margin-top: 30vh;
  }
