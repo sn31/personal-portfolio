@@ -8,22 +8,29 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Tinos|Flamenco|Sofia" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/anime.min.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 
 <body>
     <div id="splashscreen">
-        <div id="profileSplash">
-            <h1>Skye Nguyen</h1>
+        <div class="container" id="profileSplash">
+
+            <h1 class="ml5">
+                <span class="text-wrapper">
+                    <span class="line line1"></span>
+                    <span class="letters">Skye Nguyen</span>
+                    <span class="line line2"></span>
+                </span>
+            </h1>
             <p>Web Developer</p>
-            <a href="#" class="enter_link">View My Work</a>
             <div class="row splash-row">
                 <div class="col-md-3">
                     <a href="https://www.linkedin.com/in/skyenguyen31/" target="_blank">
                         <img class="contact" src="img/icons8-linkedin-64.png" alt="linkedin" />
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 container">
                     <a href="https://github.com/sn31" target="_blank">
                         <img class="contact" src="img/icons8-github-64.png" alt="github" />
                     </a>
@@ -39,6 +46,7 @@
                 </div>
             </div>
         </div>
+        <a id="enterArro" href="#" class="enter_link">View My Work</a>
     </div>
     <div class="container-fluid header-container">
         <header>

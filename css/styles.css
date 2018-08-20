@@ -226,27 +226,59 @@ body {
 
 /* SPLASH SCREEN */
  #splashscreen {
-    background-image: url(../img/kash-goudarzi-222032-unsplash.jpg);
+    /* background-image: url(../img/kash-goudarzi-222032-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #38021f;
     height: 100vh;
     padding-top: 30vh;
+    text-align: center;
  }
 
- #profileSplash {
+ /* #profileSplash {
     border:1px solid black;
-    height: 40vh;
+    height: 30vh;
     width:60vh;
     margin-left: auto;
     margin-right: auto;
     background-color:rgba(216, 209, 209, 0.5);
     text-align: center;
- }
-
+ } */
+/* 
  #profileSplash:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+ } */
+
+ .splash-row {
+     padding-top: 3vh;
  }
 
- #splash-row {
-     margin-top: 30vh;
+ #enterArrow {
+     margin-left: auto;
+     margin-right: auto;
  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.25em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    transform-origin: 0.5 0;
+  }
+  
+  .letters {
+      color: white;
+  }
