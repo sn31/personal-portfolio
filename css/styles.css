@@ -232,9 +232,6 @@ body {
     text-align: center;
  }
 
- .splash-row {
-     padding-top: 3vh;
- }
 
  #enterArrow {
      margin-left: auto;
@@ -289,4 +286,14 @@ body {
     display: inline-block;
     line-height: 1em;
     
+  }
+
+  .enter_link {
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+	background-size: cover;
+    color: transparent;
+    color: white;
+    width: 12vw;
+    height: 4vw;
+    font-family: 'Black Ops One', cursive;
   }
