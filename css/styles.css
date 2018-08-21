@@ -5,14 +5,14 @@ body {
     background-color: white;
 }
 .card-title {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Black Ops One', cursive;
     font-weight: 400;
     color: white;
     text-align: center;
 }
 
 .card-header {
-    background-color: #6b053b;
+    background-color: #7c3f5f;
 }
 .container {
     margin-bottom: 30px;
@@ -21,7 +21,7 @@ body {
 .card {
     border: none;
     margin-bottom: 20px;
-    
+    background-color: transparent;
 }
 
 img {
@@ -60,7 +60,7 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    height: 10%;
+    height: 30vh;
 }
 
 h1 {
@@ -147,7 +147,7 @@ h6 {
 /***** FOOTER *****/
 
 footer {
-    background-color: #6b053b;
+    background-color: #7c3f5f;
     text-align: center;
     font-family: 'Sofia', cursive;
     margin-bottom: 10px;
@@ -297,3 +297,9 @@ body {
     height: 4vw;
     font-family: 'Black Ops One', cursive;
   }
+
+  .raise:hover,
+  .raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
