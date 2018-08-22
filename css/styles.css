@@ -25,9 +25,6 @@ body {
     height: 100vh;
 }
 
-img {
-    border-radius: 3%;
-}
 
 .card-body {
     opacity: 1;
