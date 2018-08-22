@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Tinos|Flamenco|Sofia|Black+Ops+One|Bungee+Shade"
         rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/anime.min.js"></script>
     <script src="js/scripts.js"></script>
@@ -54,292 +55,293 @@
         <hr class="style">
         <hr class="style" id="secondLine">
         <div class="container carousel-container" id="myCarousel">
-                <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100 carousel-img" src="img/animal-shelter.png" alt="animal shelter" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100 carousel-img" src="img/flash-card.png" alt="flashcard">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100 carousel-img" src="img/election-map.png" alt="election map" />
-                        </div>
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 carousel-img" src="img/animal-shelter.png" alt="animal shelter" />
                     </div>
-                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="img/flash-card.png" alt="flashcard">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="img/election-map.png" alt="election map" />
+                    </div>
                 </div>
-    </div>
-
-    <main class="container-fluid">
-        <div class="card" id="about-me">
-            <div class="card-header">
-                <h3 class="card-title">About Me</h3>
-            </div>
-            <div class="card-body">
-                <img src="img/profile.jpg" alt="profile picture" width=50% id="profile" />
-                <div id="about-me-float">
-                    <p> I am originally from Viet Nam and have been living in the United States for about seven years now. I
-                        spent five of these years living and studying in northern Indiana before moving to Seattle last summer.
-                        I consider myself a
-                        <em>diversity promotor</em>, a reliable teammate, and a
-                        <strong>creative problem solver</strong>.
-                    </p>
-                    <p>I am currently attending Epicodus C# and React track full-time, which will commence in February, 2019.</p>
-
-                    <ol>
-                        <span>Short-term Goals</span>
-                        <li>Improve my programming skills</li>
-                        <li>Explore and apply programming best practices</li>
-                        <li>Establish meaningful relationships with people of common interests</li>
-                    </ol>
-                </div>
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-        <div class="card" id="projects">
-            <div class="card-header">
-                <h3 class="card-title">Projects</h3>
-            </div>
-            <div class="card-body">
-                <div class="row title-row">
-                    <div class="col-md-3">
-                        <h6>Title</h6>
-                    </div>
-                    <div class="col-md-5">
-                        <h6>Description</h6>
-                    </div>
-                    <div class="col-md-4">
-                        <h6>Link/Demo</h6>
-                    </div>
+
+        <main class="container-fluid">
+            <div class="card" id="about-me">
+                <div class="card-header">
+                    <h3 class="card-title">About Me</h3>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <span>Cospedia</span>
-                    </div>
-                    <div class="col-md-5">
-                        <p>A react-native mobile application that keeps track of your makeup expiration dates. </p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://github.com/sn31/makeup-journal-code-a-thon">GitHub Repository (On-going project)</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <span>Magic 8 Ball</span>
-                    </div>
-                    <div class="col-md-5">
-                        <p>A responsive magic-8-ball that gives answer when a question is entered, built using HTML, CSS and
-                            JavaScript.
+                <div class="card-body">
+                    <img src="img/profile.jpg" alt="profile picture" width=50% id="profile" />
+                    <div id="about-me-float">
+                        <p> I am originally from Viet Nam and have been living in the United States for about seven years now.
+                            I spent five of these years living and studying in northern Indiana before moving to Seattle
+                            last summer. I consider myself a
+                            <em>diversity promotor</em>, a reliable teammate, and a
+                            <strong>creative problem solver</strong>.
                         </p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://skye.dames.es/magic-8-ball/"> Live Demo</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <span>Election Result Map</span>
-                    </div>
-                    <div class="col-md-5">
-                        <p>A responsive election map based on the electoral college system, built using HTML, CSS and JavaScript.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://github.com/sn31/election-map"> GitHub Repository</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <span>Cat Clock</span>
-                    </div>
-                    <div class="col-md-5">
-                        <p>A responsive clock that changes the main cat picture based on the time of the visit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://skye.dames.es/lolcat-clock/">Live Demo</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <span>Animal Shelter</span>
-                    </div>
-                    <div class="col-md-5">
-                        <p>A static one-page website of a mock animal shelter, built using HTML and CSS.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://github.com/sn31/animal-shelter/tree/navbar"> GitHub Repository</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <span>Island Resort</span>
-                    </div>
-                    <div class="col-md-5">
-                        <p>A responsive multi-page website of a mock island resort, built using HTML and CSS.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://sn31.github.io/island-resort/"> GitHub Pages</a>
+                        <p>I am currently attending Epicodus C# and React track full-time, which will commence in February,
+                            2019.</p>
+
+                        <ol>
+                            <span>Short-term Goals</span>
+                            <li>Improve my programming skills</li>
+                            <li>Explore and apply programming best practices</li>
+                            <li>Establish meaningful relationships with people of common interests</li>
+                        </ol>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card" id="background">
-            <div class="card-header">
-                <h3 class="card-title">Background</h3>
-            </div>
-            <div class="card-body">
-                <div class="row row-bg">
-                    <div class="col-md-3 col-bg">
-                        <span>Education</span>
-                    </div>
-                    <div class="col-md-9">
-                        Bachelor of Science in Chemical Engineering with a concentration in Polymers.
-                    </div>
+            <div class="card" id="projects">
+                <div class="card-header">
+                    <h3 class="card-title">Projects</h3>
                 </div>
-                <div class="row row-bg">
-                    <div class="col-md-3 col-bg">
-                        <span>Previous Experience</span>
-                    </div>
-                    <div class="col-md-9">
-                        <ul>
-                            <li class="experience">Sales Engineering - Aerospace - Klinger IGI, Inc</li>
-                            <li class="experience">Process Improvement Engineer - Industrial Construction - Carlisle Construction Materials</li>
-                            <li class="experience">Material Engineer - Oil &amp; Gas - Parker Hannifin</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row row-bg">
-                    <div class="col-md-3 col-bg">
-                        <span>Why I code</span>
-                    </div>
-                    <div class="col-md-9">
-                        <span>I code to solve problems that either myself or other people around me run into.</span>
-                    </div>
-                </div>
-                <div class="row row-bg" id="row-bg-last">
-                    <div class="col-md-3 col-bg">
-                        <span>Awards</span>
-                    </div>
-                    <div class="col-md-9">
-                        <ul>
-                            <li>Winner of the A. McLaren White Award for First Prize in the AIChE Design Competition (2017)</li>
-                            <li>Winner of the Inherently Safer Design Award in the AIChE Design Competition (2017)</li>
-                            <li>Winner of the American Chemical Society Rubber Scholarship (2015 &amp; 2016)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card hobbies-card" id="hobbies">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card-header">
-                        <h3 class="card-title">Hobbies</h3>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <span>Dota 2</span>
-                                <br>
-                                <img class="hobbies" src="img/dota.jpg" alt="dota 2 wallpaper" width=50%/>
-                            </div>
-                            <div class="col-md-6">
-                                <span>Makeup</span>
-                                <br>
-                                <img class="hobbies" src="img/makeup-unsplash.jpg" alt="makeup bag" width=50%/>
-                            </div>
+                <div class="card-body">
+                    <div class="row title-row">
+                        <div class="col-md-3">
+                            <h6>Title</h6>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <span>Orangetheory Fitness</span>
-                                <br>
-                                <img class="hobbies" src="img/otf-logo.jpg" alt="otf logo" width=50%/>
-                            </div>
-                            <div class="col-md-6">
-                                <span>Hiking</span>
-                                <br>
-                                <img class="hobbies" src="img/hiking.jpg" alt="hiking" width=50%/>
-                            </div>
+                        <div class="col-md-5">
+                            <h6>Description</h6>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Link/Demo</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <span>Cospedia</span>
+                        </div>
+                        <div class="col-md-5">
+                            <p>A react-native mobile application that keeps track of your makeup expiration dates. </p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://github.com/sn31/makeup-journal-code-a-thon">GitHub Repository (On-going project)</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <span>Magic 8 Ball</span>
+                        </div>
+                        <div class="col-md-5">
+                            <p>A responsive magic-8-ball that gives answer when a question is entered, built using HTML, CSS
+                                and JavaScript.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://skye.dames.es/magic-8-ball/"> Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <span>Election Result Map</span>
+                        </div>
+                        <div class="col-md-5">
+                            <p>A responsive election map based on the electoral college system, built using HTML, CSS and JavaScript.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://github.com/sn31/election-map"> GitHub Repository</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <span>Cat Clock</span>
+                        </div>
+                        <div class="col-md-5">
+                            <p>A responsive clock that changes the main cat picture based on the time of the visit.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://skye.dames.es/lolcat-clock/">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <span>Animal Shelter</span>
+                        </div>
+                        <div class="col-md-5">
+                            <p>A static one-page website of a mock animal shelter, built using HTML and CSS.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://github.com/sn31/animal-shelter/tree/navbar"> GitHub Repository</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <span>Island Resort</span>
+                        </div>
+                        <div class="col-md-5">
+                            <p>A responsive multi-page website of a mock island resort, built using HTML and CSS.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://sn31.github.io/island-resort/"> GitHub Pages</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card-header">
-                        <h3 class="card-title">Let's get in touch!</h3>
+            </div>
+            <div class="card" id="background">
+                <div class="card-header">
+                    <h3 class="card-title">Background</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row row-bg">
+                        <div class="col-md-3 col-bg">
+                            <span>Education</span>
+                        </div>
+                        <div class="col-md-9">
+                            Bachelor of Science in Chemical Engineering with a concentration in Polymers.
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-2" id="socialMedia">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a href="https://www.linkedin.com/in/skyenguyen31/" target="_blank">
-                                            <img class="contact" src="img/icons8-linkedin-64.png" alt="linkedin" />
-                                        </a>
-                                    </div>
+                    <div class="row row-bg">
+                        <div class="col-md-3 col-bg">
+                            <span>Previous Experience</span>
+                        </div>
+                        <div class="col-md-9">
+                            <ul>
+                                <li class="experience">Sales Engineering - Aerospace - Klinger IGI, Inc</li>
+                                <li class="experience">Process Improvement Engineer - Industrial Construction - Carlisle Construction Materials</li>
+                                <li class="experience">Material Engineer - Oil &amp; Gas - Parker Hannifin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row row-bg">
+                        <div class="col-md-3 col-bg">
+                            <span>Why I code</span>
+                        </div>
+                        <div class="col-md-9">
+                            <span>I code to solve problems that either myself or other people around me run into.</span>
+                        </div>
+                    </div>
+                    <div class="row row-bg" id="row-bg-last">
+                        <div class="col-md-3 col-bg">
+                            <span>Awards</span>
+                        </div>
+                        <div class="col-md-9">
+                            <ul>
+                                <li>Winner of the A. McLaren White Award for First Prize in the AIChE Design Competition (2017)</li>
+                                <li>Winner of the Inherently Safer Design Award in the AIChE Design Competition (2017)</li>
+                                <li>Winner of the American Chemical Society Rubber Scholarship (2015 &amp; 2016)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card hobbies-card" id="hobbies">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h3 class="card-title">Hobbies</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span>Dota 2</span>
+                                    <br>
+                                    <img class="hobbies" src="img/dota.jpg" alt="dota 2 wallpaper" width=50%/>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a href="https://github.com/sn31" target="_blank">
-                                            <img class="contact" src="img/icons8-github-64.png" alt="github" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a href="mailto:skye@dames.es">
-                                            <img class="contact" src="img/icons8-new-post-64.png" alt="email" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a href="#"></a>
-                                        <img class="contact" src="img/icons8-resume-64.png" alt="resume" />
-                                    </div>
+                                <div class="col-md-6">
+                                    <span>Makeup</span>
+                                    <br>
+                                    <img class="hobbies" src="img/makeup-unsplash.jpg" alt="makeup bag" width=50%/>
                                 </div>
                             </div>
-                            <div class="col-md-10">
-                                <form id="contact">
-                                    <div class="form-group">
-                                        <div class="form-row">
-                                            <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="First name">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="Last name">
-                                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span>Orangetheory Fitness</span>
+                                    <br>
+                                    <img class="hobbies" src="img/otf-logo.jpg" alt="otf logo" width=50%/>
+                                </div>
+                                <div class="col-md-6">
+                                    <span>Hiking</span>
+                                    <br>
+                                    <img class="hobbies" src="img/hiking.jpg" alt="hiking" width=50%/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h3 class="card-title">Let's get in touch!</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2" id="socialMedia">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="https://www.linkedin.com/in/skyenguyen31/" target="_blank">
+                                                <img class="contact" src="img/icons8-linkedin-64.png" alt="linkedin" />
+                                            </a>
                                         </div>
-                                        <br>
-                                        <input type="text" class="form-control" placeholder="Email">
-                                        <br>
-                                        <input type="text" class="form-control" placeholder="Message">
                                     </div>
-                                    <button class="btn btn-info" id="submit" type="submit">Contact</button>
-                                </form>
-                                <br>
-                            </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="https://github.com/sn31" target="_blank">
+                                                <img class="contact" src="img/icons8-github-64.png" alt="github" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="mailto:skye@dames.es">
+                                                <img class="contact" src="img/icons8-new-post-64.png" alt="email" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="#"></a>
+                                            <img class="contact" src="img/icons8-resume-64.png" alt="resume" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <form id="contact">
+                                        <div class="form-group">
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" placeholder="First name">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" placeholder="Last name">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <input type="text" class="form-control" placeholder="Email">
+                                            <br>
+                                            <input type="text" class="form-control" placeholder="Message">
+                                        </div>
+                                        <button class="btn btn-info" id="submit" type="submit">Contact</button>
+                                    </form>
+                                    <br>
+                                </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
-    </main>
-    <footer class="container-fluid">
-        <span>Copyright © 2018
-            <a href="https://skye.dames.es">Skye Nguyen</a>. All Rights Reserved.</span>
-    </footer>
+            </div>
+        </main>
+        <footer class="container-fluid">
+            <span>Copyright © 2018
+                <a href="https://skye.dames.es">Skye Nguyen</a>. All Rights Reserved.</span>
+        </footer>
 </body>
 
 </html>
