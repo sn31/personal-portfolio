@@ -11,9 +11,6 @@ body {
     text-align: center;
 }
 
-.card-header {
-    background-color: #7c3f5f;
-}
 .container {
     margin-bottom: 30px;
 }
@@ -24,7 +21,6 @@ body {
     background-color: transparent;
     height: 100vh;
 }
-
 
 .card-body {
     opacity: 1;
@@ -160,7 +156,7 @@ body {
 	width: 100wh;
 	height: 100%;
 	background: linear-gradient(-70deg, #ffffff, #f7cde5, #a1f5ba);
-	background-size: 400% 400%;
+	background-size: 500% 500%;
 	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 5s ease infinite;
@@ -215,7 +211,7 @@ body {
 
 .carousel-img {
     width: auto;
-    height: 82vh;
+    height: 80vh;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3vh;
