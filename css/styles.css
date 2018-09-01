@@ -30,7 +30,6 @@ body {
 
 ul {
     list-style-type: none;
-    padding-left:0;
 }
 li.navbar-li {
     display:inline-block;
@@ -49,7 +48,8 @@ a:hover {
     color:#6b053b;
 }
 .navbar {
-    float:right;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .header-title {
@@ -211,20 +211,6 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* CAROUSEL  */
-
-.carousel-img {
-    width: auto;
-    height: 80vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3vh;
-}
-.carousel-container{
-    width: 70%;
-    margin-bottom: 5vh;
 }
 
 /* SPLASH SCREEN */
