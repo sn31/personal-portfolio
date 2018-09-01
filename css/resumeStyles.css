@@ -1,0 +1,98 @@
+body {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    -webkit-print-color-adjust: exact;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+ul.contact {
+    list-style-type: none;
+    padding-left: 0px;
+}
+ul.saa {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.contact li {
+    margin-bottom: 15px;
+}
+
+img.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo {
+    text-align: center;
+}
+
+img.company{
+    
+    padding-left: 0px;
+    height: 7vh;
+    padding-bottom: 15px;
+    
+}
+
+.card {
+    /* border: 0.5px solid pink; */
+    border: none;
+    padding-right: 0px;
+}
+
+.cardTwo {
+    border-left: 0.5px solid pink;
+}
+
+#hidden {
+    color: white;
+}
+
+.card-header {
+    /* border-top: 0.5px dotted pink;
+    border-bottom: 0.5px dotted pink; */
+    border: none;
+    background-color: #f9edf4;
+}
+
+hr {
+    background-color: pink;
+}
+
+.special {
+    border-top: none;
+}
+
+.cardOne h4 {
+    text-align: center;
+}
+
+
+
+.card-body {
+    padding-bottom: 0px;
+}
+
+.position {
+    margin-top: 8px;
+    margin-bottom: auto;
+}
+
+
+#interest {
+    display: inline-block;
+}
+
+.final {
+    text-align: center;
+    font-weight: 800;
+}

@@ -3,11 +3,12 @@
 body {
     font-size: 18px;
     background-color: white;
+    font-family: 'Muli', sans-serif;
 }
 .card-title {
-    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee Shade', cursive;
     font-weight: 400;
-    color: white;
+    color:#6b053b;
     text-align: center;
 }
 
@@ -34,14 +35,19 @@ ul {
 li.navbar-li {
     display:inline-block;
     margin-left: 20px;
+    
 }
 
 .navbar-link {
-    color: #6b053b;
-    font-family: 'Tinos', cursive;
+    color:#6b053b;
+    font-family: 'Bungee Shade', cursive;
     font-size: 30px;
 }
 
+a:hover {
+    text-decoration: none;
+    color:#6b053b;
+}
 .navbar {
     float:right;
 }
@@ -58,7 +64,7 @@ header{
 }
 
 h1 {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Bungee Shade', cursive;
     font-weight: 700;
     color: #6b053b;
     font-size: 45px;

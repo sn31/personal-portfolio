@@ -42,4 +42,5 @@ $(document).ready(function () {
             easing: "easeOutExpo",
             delay: 1000
         });
+        
 });
