@@ -46,12 +46,12 @@ $(document).ready(function () {
     // Fix navbar at the top of every section
     $(window).scroll(function () {
         console.log($(window).scrollTop())
-        if ($(window).scrollTop() > 815) {
+        if ($(window).scrollTop() > $(window).height()) {
             $('.pageNav').addClass("pageNavTest");
             $('.pageNav').removeClass("pageNav");
             $('.pageNavTest').slideDown();
         }
-        else if ($(window).scrollTop() < 825) {
+        else if ($(window).scrollTop() < $(window).height()) {
             $(".pageNavTest").hide();
         }
     });
