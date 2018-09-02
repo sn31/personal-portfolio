@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#myCarousel').carousel({
         interval: 3000,
         cycle: true
-      }); 
+    });
     $('.enter_link').click(function () {
         $("#splashscreen").fadeOut(500);
     });
@@ -22,7 +22,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.ml11 .line',
-            translateX: [0, $(".text-wrapper").width()+170],
+            translateX: [0, $(".text-wrapper").width() + 170],
             easing: "easeOutExpo",
             duration: 580,
             delay: 80
@@ -43,16 +43,16 @@ $(document).ready(function () {
             delay: 1000
         });
 
-  $(window).scroll(function () {
-    
-    console.log($(window).scrollTop())
-if ($(window).scrollTop() > 826) {
-    $('.pageNav').addClass("pageNavTest");
-    $('.pageNav').removeClass("pageNav");
-  }
-  if ($(window).scrollTop() < 826) {
-   $(".pageNavTest").hide();
-  }
-});
-        
+    $(window).scroll(function () {
+        console.log($(window).scrollTop())
+        if ($(window).scrollTop() > 826) {
+            $('.pageNav').addClass("pageNavTest");
+            $('.pageNav').removeClass("pageNav");
+            $('.pageNavTest').show();
+        }
+        else if ($(window).scrollTop() < 826) {
+            $(".pageNavTest").hide();
+        }
+    });
+
 });
