@@ -58,26 +58,26 @@ li.navbar-li {
     padding-top: 18vh;
     width: 100%;
     margin: 0 auto;
-
     background-color:rgba(209, 150, 181,0);
 }
 .pageNav {
-    /* padding-top: 18vh; */
     width: 100%;
     margin: 0 auto;
     position: fixed;
     z-index: 100;
     background-color:rgba(209, 150, 181,0.9);
-    display: none;
+    display: none;   
 }
 
 .pageNavTest {
-    /* padding-top: 18vh; */
+    
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     position: fixed;
     z-index: 100;
-    background-color:rgba(209, 150, 181,0.9);
+    background-color:rgba(209, 150, 181,1.0);
+    text-align: center;
+    
 }
 
 a:hover {

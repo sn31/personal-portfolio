@@ -42,15 +42,16 @@ $(document).ready(function () {
             easing: "easeOutExpo",
             delay: 1000
         });
-
+    
+    // Fix navbar at the top of every section
     $(window).scroll(function () {
         console.log($(window).scrollTop())
-        if ($(window).scrollTop() > 826) {
+        if ($(window).scrollTop() > 815) {
             $('.pageNav').addClass("pageNavTest");
             $('.pageNav').removeClass("pageNav");
-            $('.pageNavTest').show();
+            $('.pageNavTest').slideDown();
         }
-        else if ($(window).scrollTop() < 826) {
+        else if ($(window).scrollTop() < 825) {
             $(".pageNavTest").hide();
         }
     });
