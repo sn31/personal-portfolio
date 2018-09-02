@@ -5,8 +5,7 @@
     <title>Skye Nguyen</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Muli|Flamenco|Sofia|Black+Ops+One|Bungee+Shade"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Muli|Flamenco|Sofia|Black+Ops+One|Bungee+Shade" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -16,32 +15,37 @@
 
 <body>
     <div class="container-fluid" id="splashscreen">
-        <div id="profileSplash">
-            <h1 class="title-splash">Skye Nguyen</h1>
-            <h5 class="ml11">
-                <span class="text-wrapper">
-                    <span class="line"></span>
-                    <span class="letters">Software Engineer</span>
-                </span>
-            </h5>
-            <br>
+        <div>
+            <div id="layer"></div>
+            <div id="content">
+                <h1 class="title-splash">Skye Nguyen</h1>
+                <h5 class="ml11">
+                    <span class="text-wrapper">
+                        <span class="line"></span>
+                        <span class="letters">Software Engineer</span>
+                    </span>
+                </h5>
+                <br>
+                <nav>
+                        <ul>
+                            <li class="navbar-li" id="special-li">
+                                <a class="navbar-link" href="#about-me">About Me</a>
+                            </li>
+                            <li class="navbar-li">
+                                <a class="navbar-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="navbar-li">
+                                <a class="navbar-link" href="#background">Background</a>
+                            </li>
+                            <li class="navbar-li">
+                                <a class="navbar-link" href="#hobbies">Hobbies</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+
         </div>
-        <nav>
-            <ul>
-                <li class="navbar-li" id="special-li">
-                    <a class="navbar-link" href="#about-me">About Me</a>
-                </li>
-                <li class="navbar-li">
-                    <a class="navbar-link" href="#projects">Projects</a>
-                </li>
-                <li class="navbar-li">
-                    <a class="navbar-link" href="#background">Background</a>
-                </li>
-                <li class="navbar-li">
-                    <a class="navbar-link" href="#hobbies">Hobbies</a>
-                </li>
-            </ul>
-        </nav>
+        
     </div>
     <div class="container-fluid header-container">
         <header>
@@ -53,9 +57,9 @@
 
         <main class="container-fluid">
             <div class="card" id="about-me">
-                
-                    <h3 class="card-title">About Me</h3>
-               
+
+                <h3 class="card-title">About Me</h3>
+
                 <div class="card-body">
                     <img src="img/profile.jpg" alt="profile picture" width=50% id="profile" />
                     <div id="about-me-float">
@@ -66,7 +70,8 @@
                             <strong>creative problem solver</strong>.
                         </p>
                         <p>I am currently attending Epicodus C# and React track full-time, which will conclude in February,
-                            2019.</p>
+                            2019.
+                        </p>
 
                         <ol>
                             <span>Short-term Goals</span>
@@ -274,8 +279,8 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <a href="./resume.html">
-                                            <img class="contact" src="img/icons8-resume-64.png" alt="resume" />
-                                        </a>
+                                                <img class="contact" src="img/icons8-resume-64.png" alt="resume" />
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
