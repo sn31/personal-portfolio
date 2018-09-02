@@ -42,5 +42,17 @@ $(document).ready(function () {
             easing: "easeOutExpo",
             delay: 1000
         });
+
+  $(window).scroll(function () {
+    
+    console.log($(window).scrollTop())
+if ($(window).scrollTop() > 826) {
+    $('.pageNav').addClass("pageNavTest");
+    $('.pageNav').removeClass("pageNav");
+  }
+  if ($(window).scrollTop() < 826) {
+   $(".pageNavTest").hide();
+  }
+});
         
 });

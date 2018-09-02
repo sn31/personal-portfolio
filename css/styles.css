@@ -26,6 +26,12 @@ body {
 .card-body {
     opacity: 1;
 }
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /******* HEADER *******/
 
 ul {
@@ -44,29 +50,45 @@ li.navbar-li {
 }
 
 .navbar-link {
-    /* color:#6b053b; */
     color:black;
     font-family: 'Bungee Shade', cursive;
     font-size: 30px;
 }
-nav {
-    margin-top: 15vh;
+#firstNav {
+    padding-top: 18vh;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color:rgba(209, 150, 181,0);
 }
+.pageNav {
+    /* padding-top: 18vh; */
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100;
+    background-color:rgba(209, 150, 181,0.9);
+    display: none;
+}
+
+.pageNavTest {
+    /* padding-top: 18vh; */
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100;
+    background-color:rgba(209, 150, 181,0.9);
+}
+
 a:hover {
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 .header-title {
     float:left; 
 }
 
-header{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    height: 5vh;
-}
 
 h1 {
     font-family: 'Bungee Shade', cursive;
@@ -84,6 +106,7 @@ hr.style {
 
 .header-container {
     height: 100vh;
+    position: relative;
 }
 /**** ABOUT ME *****/
 
@@ -225,6 +248,7 @@ body {
     height: 100vh;
     padding-top: 30vh;
     text-align: center;
+    padding-left: 0;
  }
  #content {
     opacity: 1.0;
@@ -288,3 +312,5 @@ body {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
 }
+
+/* FOOTER */
