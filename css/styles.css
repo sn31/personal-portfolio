@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
     background-color: transparent;
     height: 100vh;
-    margin-top: 25vh;
+    margin-top: 22vh;
 }
 
 .card-body {
@@ -37,6 +37,13 @@ body {
 
 .row {
     margin-right: 0px;
+}
+
+hr {
+    border: 2px solid #6b053b;
+    width: 30%;
+    align-self: center;
+    border-radius: 50%;
 }
 /******* HEADER *******/
 
