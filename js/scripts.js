@@ -22,7 +22,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.ml11 .line',
-            translateX: [0, $(".text-wrapper").width() + 170],
+            translateX: [0, $(".text-wrapper").width()],
             easing: "easeOutExpo",
             duration: 580,
             delay: 80
