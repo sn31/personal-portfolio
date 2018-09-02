@@ -22,10 +22,10 @@ $(document).ready(function () {
         })
         .add({
             targets: '.ml11 .line',
-            translateX: [0, $(".ml11 .letters").width()],
+            translateX: [0, $(".text-wrapper").width()+170],
             easing: "easeOutExpo",
-            duration: 600,
-            delay: 100
+            duration: 580,
+            delay: 80
         }).add({
             targets: '.ml11 .letter',
             opacity: [0, 1],

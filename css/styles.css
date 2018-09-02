@@ -30,11 +30,17 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    
 }
 li.navbar-li {
     display:inline-block;
     margin-left: 20px;
-    
+}
+
+#special-li {
+    margin-left: 0px;
 }
 
 .navbar-link {
@@ -42,14 +48,12 @@ li.navbar-li {
     font-family: 'Bungee Shade', cursive;
     font-size: 30px;
 }
-
+nav {
+    margin-top: 15vh;
+}
 a:hover {
     text-decoration: none;
-    color:#6b053b;
-}
-.navbar {
-    margin-left: auto;
-    margin-right:auto;
+    color:black;
 }
 
 .header-title {
@@ -222,12 +226,6 @@ body {
  }
 
 
- #enterArrow {
-     margin-left: auto;
-     margin-right: auto;
- }
-
-
 .title-splash {
     font-family: 'Bungee Shade', cursive;
 	background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
@@ -252,7 +250,7 @@ body {
     position: relative;
     display: inline-block;
     padding-top: 0.1em;
-    padding-right: 0.05em;
+    /* padding-right: 0.05em; */
     padding-bottom: 0.15em;
   }
   
@@ -263,29 +261,14 @@ body {
     height: 100%;
     width: 3px;
     background-color: #fff;
-    transform-origin: 0 50%;
-  }
-  
-  .ml11 .line1 { 
-    top: 0; 
-    left: 0;
+    transform-origin: 0 60%;
   }
   
   .ml11 .letter {
     display: inline-block;
     line-height: 1em;
-    
   }
 
-  .enter_link {
-    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
-	background-size: cover;
-    color: transparent;
-    color: white;
-    width: 12vw;
-    height: 4vw;
-    font-family: 'Black Ops One', cursive;
-  }
 
   .raise:hover,
   .raise:focus {
