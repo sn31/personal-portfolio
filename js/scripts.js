@@ -1,4 +1,8 @@
+
 $(document).ready(function () {
+    // getLocation();
+
+    console.log($('html').offset().top);
     $('#myCarousel').carousel({
         interval: 3000,
         cycle: true
@@ -42,10 +46,10 @@ $(document).ready(function () {
             easing: "easeOutExpo",
             delay: 1000
         });
-    
+
     // Fix navbar at the top of every section
     $(window).scroll(function () {
-        console.log($(window).scrollTop())
+
         if ($(window).scrollTop() > $(window).height()) {
             $('.pageNav').addClass("pageNavTest");
             $('.pageNav').removeClass("pageNav");
@@ -55,5 +59,28 @@ $(document).ready(function () {
             $(".pageNavTest").hide();
         }
     });
+    $(window).scroll(function () {
+        var scrollPos = $(document).scrollTop();
+        console.log(scrollPos);
+        var diff = Math.abs($(window).height() - scrollPos);
+        if (diff < 3) {
+            console.log("about me");
+            history.pushState({}, '', 'file:///Users/skye/Documents/personal-portfolio/index.html#about-me');
+        }
+        // else if (scrollPos ===$(window).height()*2) {
+        //     console.log("projects");
+        //     history.pushState({}, '', 'file:///Users/skye/Documents/personal-portfolio/index.html#projects');
+        // }
+    });
 
+    $(function () {
+
+        $('#movingNav a').each(function () {
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('current');
+            }
+
+        });
+
+    });
 });
