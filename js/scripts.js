@@ -1,3 +1,9 @@
+var cardPos = {
+    "about-me": $(window).height(),
+    "projects": 2 * $(window).height(),
+    "background": 3 * $(window).height(),
+    "hobbies": 4 * $(window).height(),
+}
 
 $(document).ready(function () {
     // getLocation();
@@ -62,15 +68,16 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scrollPos = $(document).scrollTop();
         console.log(scrollPos);
-        var diff = Math.abs($(window).height() - scrollPos);
-        if (diff < 3) {
-            console.log("about me");
-            history.pushState({}, '', 'file:///Users/skye/Documents/personal-portfolio/index.html#about-me');
+
+        for (var key in cardPos) {
+
+            if (Math.abs(cardPos[key] - scrollPos) < 3) {
+                console.log(key);
+                history.pushState({}, '', 'file:///Users/skye/Documents/personal-portfolio/index.html#' + key);
+            }
         }
-        // else if (scrollPos ===$(window).height()*2) {
-        //     console.log("projects");
-        //     history.pushState({}, '', 'file:///Users/skye/Documents/personal-portfolio/index.html#projects');
-        // }
+
+
     });
 
     $(function () {
