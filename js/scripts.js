@@ -2,7 +2,7 @@ var cardPos = {
     "about-me": $(window).height(),
     "projects": 2 * $(window).height(),
     "background": 3 * $(window).height(),
-    "hobbies": 4 * $(window).height(),
+    "hobbies": 4 * $(window).height()-1,
 }
 
 $(document).ready(function () {
@@ -64,30 +64,31 @@ $(document).ready(function () {
         else if ($(window).scrollTop() < $(window).height()) {
             $(".pageNavTest").hide();
         }
-    });
-    $(window).scroll(function () {
+
+        //Change url without reloading the page
         var scrollPos = $(document).scrollTop();
-        console.log(scrollPos);
-
         for (var key in cardPos) {
-
             if (Math.abs(cardPos[key] - scrollPos) < 3) {
                 console.log(key);
                 history.pushState({}, '', 'file:///Users/skye/Documents/personal-portfolio/index.html#' + key);
+                $('#movingNav a').each(function () {
+                    if ($(this).prop('href') == window.location.href) {
+                        $(this).addClass('current');
+                    }
+        
+                });
             }
         }
-
-
     });
+    
 
-    $(function () {
+    // $(function () {
+    //     $('#movingNav a').each(function () {
+    //         if ($(this).prop('href') == window.location.href) {
+    //             $(this).addClass('current');
+    //         }
 
-        $('#movingNav a').each(function () {
-            if ($(this).prop('href') == window.location.href) {
-                $(this).addClass('current');
-            }
+    //     });
 
-        });
-
-    });
+    // });
 });
