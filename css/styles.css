@@ -41,12 +41,8 @@ body {
 .row {
     margin-right: 0px;
 }
-
-hr {
-    border: 2px solid #6b053b;
-    width: 30%;
-    align-self: center;
-    border-radius: 50%;
+hr{
+    border: none;
 }
 /******* HEADER *******/
 
@@ -204,7 +200,7 @@ footer {
 }
 
 /***** BACKGROUND ANIMATION *****/
-body {
+/* body {
 	width: 100wh;
 	height: 100%;
 	background: linear-gradient(-70deg, #ffffff, #f7cde5, #a1f5ba);
@@ -248,7 +244,7 @@ body {
 	100% {
 		background-position: 0% 50%
 	}
-}
+} */
 
 
 /**** CONTACT FORM *****/
