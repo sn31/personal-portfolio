@@ -1,7 +1,5 @@
 /******* BODY **********/
-nav a.current {
-    color: red;
-}
+
 body {
     font-size: 18px;
     background-color: white;
@@ -11,13 +9,12 @@ body {
 .card-title {
     font-family: 'Bungee Shade', cursive;
     font-weight: 400;
-    color:#6b053b;
     text-align: center;
-    margin-top: 22vh;
+    margin-top: 15vh;
 }
 
 .container {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -25,7 +22,7 @@ body {
     margin-bottom: 20px;
     background-color: transparent;
     height: 100vh;
-    
+    border-bottom: 4px solid rgba(209, 150, 181,1.0);
 }
 
 .card-body {
@@ -125,7 +122,6 @@ hr.style {
 #profile{
     float: left;
     margin-right: 10px;
-    margin-bottom: 10px;
 }
 
 #about-me-float {
