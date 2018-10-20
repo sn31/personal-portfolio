@@ -1,10 +1,8 @@
 body {
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 20px;
     font-family: 'Titillium Web', sans-serif;
     -webkit-print-color-adjust: exact;
-    margin-bottom: 20px;
+   
+    margin: 10px 10px 20px 20px;
 }
 
 h1{
@@ -17,7 +15,7 @@ ul.contact {
     list-style-type: none;
     padding-left: 0;
 }
-ul.saa {
+.saa {
     list-style-type: none;
     padding-left: 0;
 }
@@ -35,7 +33,7 @@ img.logo{
     text-align: center;
 }
 
-img.company{
+.company{
     
     padding-left: 0;
     height: 7vh;
