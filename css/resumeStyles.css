@@ -15,11 +15,11 @@ h1{
 
 ul.contact {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
 }
 ul.saa {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
 }
 .contact li {
     margin-bottom: 15px;
@@ -37,7 +37,7 @@ img.logo{
 
 img.company{
     
-    padding-left: 0px;
+    padding-left: 0;
     height: 7vh;
     padding-bottom: 15px;
     
@@ -46,7 +46,7 @@ img.company{
 .card {
     /* border: 0.5px solid pink; */
     border: none;
-    padding-right: 0px;
+    padding-right: 0;
 }
 
 .cardTwo {
@@ -79,7 +79,7 @@ hr {
 
 
 .card-body {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .position {
