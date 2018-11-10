@@ -47,6 +47,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 0
     
 }
 .navbar-li {
@@ -64,7 +65,7 @@ ul {
     font-size: 30px;
 }
 #firstNav {
-    padding-top: 6em;
+    padding-top: 5em;
     width: 100%;
     margin: 0 auto;
     background-color:rgba(209, 150, 181,0);
